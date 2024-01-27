@@ -36,7 +36,7 @@ int main() {
 void add_function() {
     int e, f, sum;
 
-    printf("Enter two numbers to add:\n");
+    printf("Enter two numbers to add(Formula: e+f):\n");
     scanf("%d %d", &e, &f);
 
     sum = e + f;
@@ -46,7 +46,7 @@ void add_function() {
 void subtract_function() {
     int e, f, difference;
 
-    printf("Enter two numbers for subtraction:\n");
+    printf("Enter two numbers for subtraction(Formula:e-f):\n");
     scanf("%d %d", &e, &f);
 
     difference = e - f;
@@ -56,7 +56,7 @@ void subtract_function() {
 void multiply_function() {
     int e, f, product;
 
-    printf("Enter two numbers for multiplication:\n");
+    printf("Enter two numbers for multiplication(Formula: e x f):\n");
     scanf("%d %d", &e, &f);
 
     product = e * f;
@@ -67,7 +67,7 @@ void divide_function() {
     int e, f;
     float quotient;
 
-    printf("Enter two numbers for division:\n");
+    printf("Enter two numbers for division(formula:e/f):\n");
     scanf("%d %d", &e, &f);
 
     // Check for division by zero
